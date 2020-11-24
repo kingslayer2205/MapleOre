@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "274958437997",
+    "firebase_url": "https://mapleore.firebaseio.com",
+    "project_id": "mapleore",
+    "storage_bucket": "mapleore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274958437997:android:d2b0ad5a8515e2d8923964",
+        "android_client_info": {
+          "package_name": "com.example.mapleore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274958437997-0jl5405ongd10n9eufa5rgvbep2hal77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mapleore",
+            "certificate_hash": "5e4ac0eaa586fd712ca9e89f71f8e2662ceb09ff"
+          }
+        },
+        {
+          "client_id": "274958437997-9njmb5nf04qhvq71co410hiu6cko8f5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3R7oTSgb283lXhMHL1PTyDH8hOnzXZQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274958437997-9njmb5nf04qhvq71co410hiu6cko8f5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/mapleore_welcome_waterripple"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminCatagoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_catagory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Add New Product"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:textStyle="bold" 
+        ></TextView>
+    <LinearLayout
+        android:id="@+id/linear1_catagory_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/slogan_catagory"
+        android:layout_marginTop="10sp"
+        >
+        <ImageView
+            android:id="@+id/tshirt"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/tshirts"
+></ImageView>
+        <ImageView
+            android:id="@+id/Sports_tshirt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sports"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/Female_dressess11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/female_dresses"
+            ></ImageView>
+
+        <ImageView
+            android:id="@+id/Female_dressess12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/female_dresses"
+            ></ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2_catagory_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/linear1_catagory_layout"
+        android:layout_marginTop="10sp"
+        >
+        <ImageView
+            android:id="@+id/tshirt2"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/tshirts"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/Sports_tshirt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sports"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/Female_dressess21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/female_dresses"
+            ></ImageView>
+
+        <ImageView
+            android:id="@+id/Female_dressess22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/female_dresses"
+            ></ImageView>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/check_maintain_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/check_orders_bttn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:text="Maintain Order"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+
+
+        ></Button>
+
+
+    <Button
+        android:id="@+id/check_orders_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_above="@+id/admin_logout_button"
+       android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+android:background="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:text="Check New Orders"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+
+
+        ></Button>
+
+    <Button
+        android:id="@+id/admin_logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+      android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+
+
+        ></Button>
+
+</RelativeLayout>
